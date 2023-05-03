@@ -38,7 +38,7 @@ pkg install git
 
 rm -rf Rdx
 
-git clone https://github.com/Rdx-vai/Rdx-Pro/blob/main/README.md
+git clone https://github.com/Rdx-vai/Rdx-Pro
 
 cd Rdx
 
