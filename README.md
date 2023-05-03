@@ -36,13 +36,13 @@ pip install rich
 
 pkg install git
 
-rm -rf Rdx
+rm -rf Rdx01
 
 git clone https://github.com/Rdx-vai/Rdx-Pro
 
-cd Rdx
+cd Rdx01
 
-python Rdx.py
+python Rdx01.py
 
 Note: (This Tools Are Paid, So You Need Permission To Use and Enjoy Rdx Pro Tools )
 
@@ -52,7 +52,7 @@ Note: (This Tools Are Paid, So You Need Permission To Use and Enjoy Rdx Pro Tool
 
 ```
 
-pkg update ; pkg upgrade ; pkg install python ; pkg install python2 ; pip install requests ; pip install mechanize; pip install bs4, pkg install git ; git clone https://github.com/Rdx-vai/Rdx-Pro ; cd Rdx; python Rdx.py
+pkg update ; pkg upgrade ; pkg install python ; pkg install python2 ; pip install requests ; pip install mechanize; pip install bs4, pkg install git ; git clone https://github.com/Rdx-vai/Rdx-Pro ; cd Rdx01; python Rdx01.py
 
 Note: (This Tools Are Paid, So You Need Permission To Enjoy Rdx Pro Tools )
 
