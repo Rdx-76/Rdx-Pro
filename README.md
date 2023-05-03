@@ -43,7 +43,7 @@ git clone https://github.com/Rdx-vai/Rdx-Pro
 cd Rdx-Pro
 
 
-python Rdx.py
+python2 Rdx.py
 
 Note: (This Tools Are Paid, So You Need Permission To Use and Enjoy Rdx Pro Tools )
 
