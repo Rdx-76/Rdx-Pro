@@ -2,7 +2,7 @@
 
 Rdx Pro Tool
 
-<b></b> </br> <br> [![Facebook](https://img.shields.io/badge/Facebook-RDX-vai-blue?style=flat-square&logo=facebook)](https://www.facebook.com/Rdx.OFFICIALS)<br> [![WhatsApp](https://img.shields.io/badge/WhatsApp-Rdx-vai-blue?style=flat-square&logo=WhatsApp)](https://chat.whatsapp.com/IulgtTY1ao6HeowtyCFEGJ)
+<b></b> </br> <br> [![Facebook](https://img.shields.io/badge/Facebook-RDX_vai-blue?style=flat-square&logo=facebook)](https://www.facebook.com/Rdx.OFFICIALS)<br> [![WhatsApp](https://img.shields.io/badge/WhatsApp-Rdx_vai-blue?style=flat-square&logo=WhatsApp)](https://chat.whatsapp.com/IulgtTY1ao6HeowtyCFEGJ)
 
 <h1 align="center"> ERROR PROBLEM FIXED </h1>
 
@@ -58,6 +58,6 @@ Note: (This Tools Are Paid, So You Need Permission To Enjoy Rdx Pro Tools )
 
 ```
 
-[![Facebook](https://img.shields.io/badge/Facebook-Rdx-vai-blue?style=flat-square&logo=facebook)](https://www.facebook.com/eta.kuno.kotha.holo)</br>
+[![Facebook](https://img.shields.io/badge/Facebook-Rdx_vai-blue?style=flat-square&logo=facebook)](https://www.facebook.com/eta.kuno.kotha.holo)</br>
 
 [CODED BY Rdx-vai]
