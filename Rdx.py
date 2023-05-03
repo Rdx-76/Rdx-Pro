@@ -10714,7 +10714,7 @@ def pilih_login():
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
         elif peak =="1":
-		Rdx-vaix()
+		blackmafiax()
 	elif peak =="2":
 		login1()
         elif peak =="3":
@@ -10911,7 +10911,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize') 
-                jalan("\033[1;97mgit clone https://github.com/Rdx-vaiXP/World")
+                jalan("\033[1;97mgit clone https://github.com/blackmafiaxP/World")
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser:Rdx-vai')
@@ -10926,7 +10926,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name : Rdx-vai')
@@ -10939,7 +10939,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name :  Rdx-vai')
@@ -10952,7 +10952,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97m⭕No5⭕')
@@ -10963,7 +10963,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -10976,7 +10976,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -10989,7 +10989,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11002,7 +11002,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11015,7 +11015,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11028,7 +11028,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11041,7 +11041,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11054,7 +11054,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11067,7 +11067,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11080,7 +11080,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11093,7 +11093,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11106,7 +11106,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11119,7 +11119,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11132,7 +11132,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11145,7 +11145,7 @@ def pilih():
                 jalan('\033[1;97mpkg install git')
                 jalan('\033[1;97mpip install requests')
                 jalan('\033[1;97mpip install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97mUser Name:Rdx-vai')
@@ -11154,7 +11154,7 @@ def pilih():
                 jalan('\033[1;97mapt update')
                 jalan('\033[1;97mapt upgrade -y ')
                 jalan('\033[1;97mpkg install python -y ')
-                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
+                jalan('\033[1;97mgit clone https://github.com/blackmafiaxP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97m#Metasploit Commands')
@@ -14224,7 +14224,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="2":
                 print (logo53)
 		os.system("clear")
@@ -14239,7 +14239,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="3":
                 print (logo53)
 		os.system("clear")
@@ -14254,7 +14254,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="4":
                 print (logo53)
 		os.system("clear")
@@ -14269,7 +14269,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="5":
                 print (logo53)
 		os.system("clear")
@@ -14284,7 +14284,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="6":
                 print (logo53)
 		os.system("clear")
@@ -14299,7 +14299,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="7":
                 print (logo53)
 		os.system("clear")
@@ -14314,7 +14314,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="8":
                 print (logo53)
 		os.system("clear")
@@ -14329,7 +14329,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="9":
                 print (logo53)
 		os.system("clear")
@@ -14344,7 +14344,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="10":
                 print (logo53)
 		os.system("clear")
@@ -14359,7 +14359,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
         elif Rdxvaix =="11":
                 print (logo53)
 		os.system("clear")
@@ -14374,7 +14374,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
         elif Rdxvaix =="12":
                 print (logo53)
 		os.system("clear")
@@ -14389,7 +14389,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
         elif Rdxvaix =="13":
                 print (logo53)
 		os.system("clear")
@@ -14404,7 +14404,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
         elif Rdxvaix =="14":
                 print (logo53)
 		os.system("clear")
@@ -14419,7 +14419,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="15":
                 print (logo53)
 		os.system("clear")
@@ -14434,7 +14434,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="16":
                 print (logo53)
 		os.system("clear")
@@ -14449,7 +14449,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="17":
                 print (logo53)
 		os.system("clear")
@@ -14464,7 +14464,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="18":
                 print (logo53)
 		os.system("clear")
@@ -14479,7 +14479,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="19":
                 print (logo53)
 		os.system("clear")
@@ -14494,7 +14494,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="20":
                 print (logo53)
 		os.system("clear")
@@ -14509,7 +14509,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="21":
                 print (logo53)
 		os.system("clear")
@@ -14524,7 +14524,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="22":
                 print (logo53)
 		os.system("clear")
@@ -14539,7 +14539,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =="23":
                 print (logo53)
 		os.system("clear")
@@ -14554,7 +14554,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
         elif Rdxvaix =="24":
                 print (logo53)
 		os.system("clear")
@@ -14569,7 +14569,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
         elif Rdxvaix =="25":
                 print (logo53)
 		os.system("clear")
@@ -14584,7 +14584,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
         elif Rdxvaix =="26":
                 print (logo53)
 		os.system("clear")
@@ -14599,7 +14599,7 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			Rdx-vaix()
+			blackmafiax()
 	elif Rdxvaix =='0':
 		login()
 	else:
