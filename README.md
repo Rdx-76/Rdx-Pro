@@ -36,14 +36,14 @@ pip install rich
 
 pkg install git
 
-rm -rf Rdx01
+rm -rf Rdx-Pro
 
 git clone --depth https://github.com/Rdx-vai/Rdx-Pro
 
-cd Rdx01
+cd Rdx-Pro
 
 
-python Rdx01.py
+python Rdx.py
 
 Note: (This Tools Are Paid, So You Need Permission To Use and Enjoy Rdx Pro Tools )
 
