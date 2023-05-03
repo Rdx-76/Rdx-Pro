@@ -5,7 +5,7 @@
 #Reserved2023
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(1000,2000,5000,10000,15000,20000,50000,100000):
+for n in range(5000,10000,50000,):
 
     nmbr = random.randint(1111111, 9999999)
     
@@ -14,7 +14,8 @@ for n in range(1000,2000,5000,10000,15000,20000,50000,100000):
     print(nmbr)
 
     sys.stdout.flush()
-    
+ 
+ 
 try:
     import requests
 except ImportError:
@@ -77,7 +78,7 @@ W='\033[1;97m'
 S='\033[1;97m'
 P='\033[1;97m'
 Y='\033[1;97m'
-#Dev:rana
+#Dev:
 ##### LOGO #####
 logo = """
 
@@ -14169,7 +14170,7 @@ def test4():
     except Exception as f:         
         print ('    Bad406')
 
-def Rdx-vaix():
+def Rdxx():
 	os.system('clear')
 	print logo2
 	print '\033[1;97m-•◈•-\033[1;97m> \033[1;97m☆.\x1b[1;92m[1]  Bangladesh\033[1;97m☆.\x1b[1;92m[14]  Australia'
