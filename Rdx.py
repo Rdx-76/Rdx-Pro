@@ -10636,18 +10636,18 @@ print  """
 \033[1;95m«-----------------\033[1;91mJackroo-eng\033[1;95m-----------------»"""
 
 jalan("\033[1;97m•◈•───────•◈ NOT A NAME ITS BRAND •◈•───────•◈•") 
-jalan("                  \033[1;93m Welcome to Jackroo-eng ")  
+jalan("                  \033[1;93m Welcome to Rdx Pro ")  
 
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
-jalan("\033[1;93m▇▇\033[1;95m           WellCome to Jackroo-eng    \033[1;93m▇▇")
+jalan("\033[1;93m▇▇\033[1;95m           WellCome to Rdx Pro Tool    \033[1;93m▇▇")
 jalan("\033[1;93m▇▇\033[1;91m             👇Tool Using Tips👇      \033[1;93m▇▇")
 jalan("\033[1;93m▇▇\033[1;92m            Tool Update EveryDay      \033[1;93m▇▇")
 jalan("\033[1;93m▇▇\033[1;92m        Termux Data Clear EveryDay    \033[1;93m▇▇")
-jalan("\033[1;93m▇▇\033[1;92m         Facebook Id -- jack vai       \033[1;93m▇▇")
+jalan("\033[1;93m▇▇\033[1;92m         Facebook Id -- Rdx       \033[1;93m▇▇")
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
-print "\033[1;95m«-----------------\033[1;91mjackroo-eng\033[1;95m-----------------»"
-CorrectUsername = "Jackroo-eng"
-CorrectPassword = "Janu"
+print "\033[1;95m«-----------------\033[1;91mRdx-Vai\033[1;95m-----------------»"
+CorrectUsername = "RDX"
+CorrectPassword = "Rdx"
 
 loop = 'true'
 while (loop == 'true'):
@@ -10660,10 +10660,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;97mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
+            os.system('xdg-open https://github.com/Rdx-vai/Rdx-Pro')
     else:
         print "\033[1;97mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
+        os.system('xdg-open https://github.com/Rdx-vai/Rdx-Pro')
 
 ##### LICENSE #####
 #=================#
@@ -10690,19 +10690,19 @@ def login():
         time.sleep(0.05)
         print "\033[1;45m\033[1;34mActivitie This Tool is for Educational Purpose\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m---------------»"
+        print "\033[1;97m«-----------------\033[1;97mRdx\033[1;97m---------------»"
         time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;96m Fast Cloning Without fb id \033[1;97m[New Update]"
         time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;93m Login only new Facebook ID "
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;95m Login  Using Token Update by Janu"
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;95m Login  Using Token Update by Rdx"
         time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;97m Get Access Token App Fb"
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94m Jackroo-eng   Serch On Youtube   "
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94m Rdx   Serch On Youtube   "
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;91mJackroo-eng  Serch On Youtube   "
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;91m Rdx  Serch On Youtube   "
         time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;97m Exit             "
 	pilih_login()
