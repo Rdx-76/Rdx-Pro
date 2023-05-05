@@ -16,7 +16,7 @@ for n in range(10000):
     sys.stdout.flush()
     
 try:
-    import requests
+    import 
 except ImportError:
     os.system('pip install requests')
     
