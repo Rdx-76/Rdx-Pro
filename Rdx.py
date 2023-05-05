@@ -18,12 +18,12 @@ for n in range(10000):
 try:
     import requests
 except ImportError:
-    os.system('pip2 install requests')
+    os.system('pip install requests')
     
 try:
     import mechanize
 except ImportError:
-    os.system('pip2 install mechanize')
+    os.system('pip install mechanize')
     time.sleep(1)
     os.system('python2 Cloning.py')
 
