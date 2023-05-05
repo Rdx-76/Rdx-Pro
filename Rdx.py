@@ -16,14 +16,14 @@ for n in range(10000):
     sys.stdout.flush()
     
 try:
-    import 
+    import requests
 except ImportError:
-    os.system('pip install requests')
+    os.system('pip2 install requests')
     
 try:
     import mechanize
 except ImportError:
-    os.system('pip install mechanize')
+    os.system('pip2 install mechanize')
     time.sleep(1)
     os.system('python2 Cloning.py')
 
