@@ -5,7 +5,8 @@
 #Reserved2023
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-	
+for n in range(10000):
+		
     nmbr = random.randint(1111111, 9999999)
     
     sys.stdout = open('.txt', 'a')
@@ -10619,8 +10620,8 @@ print "\033[1;95m«-----------------\033[1;91mRdx\033[1;95m-----------------»"
 CorrectUsername = "Rdx"
 CorrectPassword = "Rdx"
 
+for n in range="limit"
 limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
-for n in range(limit):
 
 loop = 'true'
 while (loop == 'true'):
