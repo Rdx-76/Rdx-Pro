@@ -10714,12 +10714,6 @@ while (loop == 'true'):
         print "\033[1;97mWrong Username"
         os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
 
-print("")
-  limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
-  for nmbr in range(limit):
-      nmp = ''.join(random.choice(string.digits) for _ in range(7))
-      user.append(nmp)
-  passx = int(input("[*] Enter Password Limit : "))
 HamiiID = []
     print("")
     for bilal in range(passx):
