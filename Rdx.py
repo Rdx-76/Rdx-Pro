@@ -59,14 +59,6 @@ for xd in range(10000):
     k=random.randrange(40,150)
     l='Mobile Safari/537.36'
 
-def i():
-    user=[]
-    twf =[]
-    os.getuid
-    os.geteuid
-    os.system("clear")
-    jalan(logo)
-    
 
 #### colours ####
 B='\033[1;91m'
