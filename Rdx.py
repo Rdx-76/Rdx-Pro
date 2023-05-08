@@ -10713,12 +10713,7 @@ while (loop == 'true'):
     else:
         print "\033[1;97mWrong Username"
         os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
-
-HamiiID = []
-    print("")
-    for bilal in range(passx):
-        pww = input("[*] Enter Password : ")
-        HamiiID.append(pww)
+def:
     with ThreadPool(max_workers=50) as manshera:
         clear()
         tl = str(len(user))
