@@ -5,8 +5,16 @@
 #Reserved2023
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
+for n in range(10000):
+	
+    nmbr = random.randint(1111111, 9999999)
+    
+    sys.stdout = open('.txt', 'a')
 
-   try:
+    print(nmbr)
+
+    sys.stdout.flush()
+  try:
     import requests
 except ImportError:
     os.system('pip2 install requests')
@@ -35,6 +43,7 @@ br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Buil
 def keluar():
 	print 'Rdx '
 	os.sys.exit()
+
 for xd in range(10000):
     aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
@@ -67,14 +76,6 @@ limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: ')
     print(logo)
     passx = int(input("[*] Enter Password Limit : ")
    
- nmbr = random.randint(1111111, 9999999)
-    
-    sys.stdout = open('.txt', 'a')
-
-    print(nmbr)
-
-    sys.stdout.flush()
-    
 def acak(b):
     w = 'ahtdzjc'
     d = ''
