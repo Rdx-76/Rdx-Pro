@@ -10619,10 +10619,6 @@ jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇�
 print "\033[1;95m«-----------------\033[1;91mRdx\033[1;95m-----------------»"
 CorrectUsername = "Rdx"
 CorrectPassword = "Rdx"
-
-for n in range="limit"
-limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
-
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;97m📋 \x1b[1;91mTool Username \x1b[1;97m»» \x1b[1;97m")
