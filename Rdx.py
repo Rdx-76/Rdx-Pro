@@ -59,8 +59,6 @@ for xd in range(10000):
     k=random.randrange(40,150)
     l='Mobile Safari/537.36'
 
-    ugen.append(uaku2)
-
 def i():
     user=[]
     twf =[]
