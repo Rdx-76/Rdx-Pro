@@ -14602,14 +14602,8 @@ def action():
 #					        cps.close()
 #					        cpb.append(c+user+pass2)
 																	
-							 break
-            else:
-                continue
-        loop+=1
-        sys.stdout.write(' %s[ⓇDX-] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
-        sys.stdout.flush()
-															
-		except:
+							 
+		 except:
 			pass
 		
 	p = ThreadPool(30)
