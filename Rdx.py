@@ -103,32 +103,6 @@ except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
 
-def cek_apk(session,coki):
-    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
-    sop = BeautifulSoup(w,"html.parser")
-    x = sop.find("form",method="post")
-    game = [i.text for i in x.find_all("h3")]
-    if len(game)==0:
-        print(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
-    else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
-        for i in range(len(game)):
-            print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-        #else:
-            #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
-    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
-    sop = BeautifulSoup(w,"html.parser")
-    x = sop.find("form",method="post")
-    game = [i.text for i in x.find_all("h3")]
-    if len(game)==0:
-        print(f'\r%s[%s!%s] %sSorry there is no Expired Apk%s           \n'%(N,M,N,M,N))
-    else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
-        for i in range(len(game)):
-            print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
-        else:
-            print('')
-
     def follow(self, session, coki):
         r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
