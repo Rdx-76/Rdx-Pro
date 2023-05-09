@@ -26,9 +26,9 @@ pkg install python
 
 pkg install python2
 
-pip install requests
+pip2 install requests
 
-pip install mechanize
+pip2 install mechanize
 
 pip install bs4
 
