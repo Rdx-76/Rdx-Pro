@@ -38,7 +38,7 @@ pkg install git
 
 rm -rf Rdx-Pro
 
-git clone https://github.com/Rdx-vai/Rdx-Pro
+git clone https://github.com/Rdx-76/Rdx-Pro
 
 cd Rdx-Pro
 
