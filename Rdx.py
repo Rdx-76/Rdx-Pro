@@ -56,8 +56,7 @@ br.addheader_freefb = {"authority": 'free.facebook.com',
             "pragma": 'no-cache',
             "priority": 'u=0',
             'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            "user-agent"}
+            "upgrade-insecure-requests": '1'}
 br.addheader_freefb = {"authority": 'free.facebook.com',
             "method": 'GET',
             "scheme": 'https',
@@ -76,8 +75,7 @@ br.addheader_freefb = {"authority": 'free.facebook.com',
             "pragma": 'no-cache',
             "priority": 'u=0',
             'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            "user-agent"}
+            "upgrade-insecure-requests": '1'}
 def keluar():
 	print 'Rdx '
 	os.sys.exit()
