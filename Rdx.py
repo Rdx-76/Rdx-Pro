@@ -13263,16 +13263,7 @@ def pilih_isi():
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)
-																	
-		      
-            else:
-                continue
-        loop+=1
-        sys.stdout.write(' %s[Ⓡ1F4Ⓣ] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
-        sys.stdout.flush()
-    except:
-        pass
-															
+														
 		except:
 			pass
 		
