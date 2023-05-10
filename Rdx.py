@@ -13264,7 +13264,7 @@ def pilih_isi():
 																	cek.close()
 																	cekpoint.append(user+pass7)
 																	
-																    break
+		      
             else:
                 continue
         loop+=1
