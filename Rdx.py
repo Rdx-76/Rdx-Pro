@@ -77,8 +77,6 @@ br.addheader_freefb = {"authority": 'free.facebook.com',
             "priority": 'u=0',
             'cross-origin-resource-policy': 'cross-origin',
             "upgrade-insecure-requests": '1'}
-            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
-            log_cookies=session.cookies.get_dict().keys()
 def keluar():
 	print 'Rdx '
 	os.sys.exit()
